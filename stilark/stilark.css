@@ -241,14 +241,14 @@ svg {
 
 }
 
-#outer {
-    stroke: green;
-    stroke-width: 7px;
-    fill: transparent;
+.eye {
+  stroke: green;
+  stroke-width: 7px;
+  fill: transparent;
 }
 
-#inner {
-  
+#pupil {
+  stroke: black;
 }
 
 #lister {
