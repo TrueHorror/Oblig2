@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="stilark/stilark.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <title>SVG</title>
+  </head>
+  <body>
+    <nav id="meny">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i> Hjem</a></li>
+        <li><a href="mathml.html"><i class="fa  fa-cube"></i> MathML</a></li>
+        <li><a href="#"><i class="fa fa-pencil"></i> SVG</a></li>
+        <li><a href="#"><i class="fa fa-git-square"></i> GIT</a></li>
+        <li><a href="about.html"><i class="fa fa-lightbulb-o"></i> Om siden</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <main id="svg-main">
+        <article id="svg-content">
+          <h2>Hva er SVG?</h2>
+          <br />
+          <p>SVG står for <strong>S</strong>calable <strong>V</strong>ector
+          <strong>G</strong>raphics og er et 2D basert bildeformat. Det kan leses som en XML kode
+          og kan manipuleres manuelt ved hjelp av CSS eller JavaScript.</p>
+          <br />
+          <p>SVG brukes som oftest til logoer, ikoner animasjoner, illusrtasjoner og/eller skjemaer/grafer.
+          Man kan enten lage en SVG gjennom å kode for hånd eller bruke et bildebehandlingsprogramm som for eksempel Adobe Illustrator eller Sketch, hvilket vill gi deg en .svg fil.
+          </p>
+          <p>Her er et eksempel på SVG som er skrevet rett i HTML'en:</p>
+          <br />
+          <img src="bilder/svgkode.png" alt="Kodeeksempel på en eklipse" />
+          <p>Dette vill da gi oss:</p>
+          <svg height="150px" width="300px">
+            <ellipse cx="200" cy="80" rx="100" ry="50"
+              style="fill:yellow; stroke:purple; stroke-width:2" />
+          </svg>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <p>Her er et eksempel på flere SVG figurer sammen:</p>
+          <svg id="illuminati" height="400" width="500">
+            <polygon id="outer" points="250,60 100,300 400,300" />
+            <ellipse id="inner" cx="200" cy="80" rx="100" ry="50" />
+          </svg>
+        </article>
+      </main>
+    </div>
+    <footer id="footer">
+      <p>&copy; 2017 FREDRIK <a href="about.html">Info om siden</a></p>
+    </footer>
+  </body>
+</html>

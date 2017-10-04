@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="stilark/stilark.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <title>MathML</title>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  </head>
+  <body>
+    <nav id="meny">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i> Hjem</a></li>
+        <li><a href="mathml.html"><i class="fa  fa-cube"></i> MathML</a></li>
+        <li><a href="#"><i class="fa fa-pencil"></i> SVG</a></li>
+        <li><a href="#"><i class="fa fa-git-square"></i> GIT</a></li>
+        <li><a href="about.html"><i class="fa fa-lightbulb-o"></i> Om siden</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <main id="math-main">
+        <article id="mathml">
+          <h2>Hva er MathML?</h2>
+          <br />
+          <p><img src="bilder/mathml.png" alt="Bilde av MathML association">MathML står for <strong>M</strong>ath<strong>M</strong>arkup<strong>L</strong>anguage.
+          Det er et semantisk markup language som er en del av HTML5. MathML brukes
+          for å representere matematiske formler. Det er delt opp i to deler: C-MathML, hvilket beholder semantikken i det matematiske uttrykket,
+          og P-MathML, som beskriver hvordan det skal se ut. Ettersom det er skrives direkte i koden er det mulig at nettleseren
+          kan lese opp stykkene for de som trenger den hjelpen.</p>
+          <br />
+          <br />
+          <h4>Så hvordan bruker man MathML?</h4>
+          <p>C-MatML står for content MathML, og P-MathML står for presentation MathML.
+            Content er en teks der det står forklart hva som skjer i formelen.
+            Presentation i motsettelse beskriver bara hvordan det skal se ut med hvor tegn og nummer skal hvere i rekkefølgen.
+          </p>
+          <br />
+          <p>Her er et eksempel på hvordan a + b opphøyd med 2 = a opphøyd med 2 + b opphøyd med 2 + 2 ganger ab</p>
+          <p>Binomial Theorem:</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"> <!-- MathMLen tatt/lånt fra: https://www.codeproject.com/Articles/826641/HTML-Use-of-MathML-A-Better-Way-to-Present-Mathema-->
+            <mrow>
+                <msup>
+                    <mfenced>
+                        <mrow>
+                            <mi>a</mi>
+                            <mo>+</mo>
+                            <mi>b</mi>
+                        </mrow>
+                    </mfenced>
+                    <mn>2</mn>
+                </msup>
+                <mo>=</mo>
+                <msup>
+                    <mrow>
+                        <mi>a</mi>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                    <mrow>
+                        <mi>b</mi>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+                <mo>+</mo>
+                <mrow>
+                    <mn>2</mn>
+                    <mi>a</mi>
+                    <mi>b</mi>
+                </mrow>
+            </mrow>
+        </math>
+          <br />
+          <br />
+          <p>MathML var designet med tanke på tilgjengelighet for alle som bruker nettet.
+            Folk med lesevansker eller blinde har derfor en mulighet å lese formlene.
+          </p>
+          <br />
+          <p>Det er lettere å bruke MathML for å forklare.
+          </p>
+        </article>
+      </main>
+    </div>
+    <footer id="footer">
+      <p>&copy; 2017 FREDRIK <a href="about.html">Info om siden</a></p>
+    </footer>
+  </body>
+</html>
