@@ -112,10 +112,11 @@ img {
   padding: 15px;
   width: auto;
   max-width: 1190px;
+  border: solid black 1px;
 }
 
 #git-content img {
-  margin-left: auto;
+  margin: 20px 0 20px 0;
 }
 
 #gitkraken-endring {
@@ -123,14 +124,8 @@ img {
   width: 75%;
 }
 
-.gitkraken-endring-2 {
-  width: 37.5%;
-  height: auto;
-}
-
 #frister {
   width: 33%;
-  border: solid blue 1px;
   float: right;
   position: relative;
   display: flex;
@@ -175,7 +170,6 @@ img {
 }
 
 main {
-  border: solid red 1px;
   width: 66%;
   display: flex;
   flex-wrap: wrap;
@@ -196,6 +190,12 @@ main {
   height: auto;
   max-height: 600px;
   max-width: 780px;
+  min-height: 300px;
+}
+
+.main-content a:hover{
+  color: white;
+  background: rgba(89, 89, 89, 0.8);
 }
 
 .about {
@@ -206,6 +206,7 @@ main {
     height: auto;
     max-height: 600px;
     max-width: 780px;
+    border: solid black 1px;
 }
 
 .about p {
@@ -220,6 +221,7 @@ main {
 }
 
 #math-main {
+
   width: 100%;
   max-width: 1200px;
   height: auto;
@@ -231,6 +233,7 @@ main {
   padding: 15px;
   width: auto;
   max-width: 1190px;
+  border: solid black 1px;
 }
 
 #mathml img {
@@ -252,6 +255,7 @@ main {
   padding: 15px;
   width: auto;
   max-width: 1190px;
+  border: solid black 1px;
 }
 
 #svg-content img {
@@ -282,7 +286,7 @@ svg {
 }
 
 #lister {
-  border: solid blue 1px;
+
   float: right;
   width: 33%;
   height: auto;
@@ -343,7 +347,6 @@ table tr:nth-child(even) {
 #kalender-wrapper {
   margin-top: 5px;
   width: 66%;
-  border: solid red 1px;
   height: auto;
   min-height: 400px;
   padding: 5px;
