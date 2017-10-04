@@ -1,4 +1,4 @@
-@import url('../../../maler/css/normalize.css');
+@import url('../../../../maler/css/normalize.css');
 
 body * {
   -webkit-box-sizing: border-box;
@@ -104,6 +104,28 @@ img {
   height: 300px;
   margin-left: 37%;
 
+}
+
+#git-content {
+  background: rgba(211, 211, 211, 0.8);
+  margin: 5px;
+  padding: 15px;
+  width: auto;
+  max-width: 1190px;
+}
+
+#git-content img {
+  margin-left: auto;
+}
+
+#gitkraken-endring {
+  height:auto;
+  width: 75%;
+}
+
+.gitkraken-endring-2 {
+  width: 37.5%;
+  height: auto;
 }
 
 #frister {
@@ -239,6 +261,14 @@ svg {
   display: block;
   float: left;
 
+}
+
+#svg-eksempel {
+  margin-bottom: 20px
+}
+
+#p-flere-svg {
+  margin-top: 170px
 }
 
 .eye {
